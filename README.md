@@ -16,12 +16,16 @@ SAS EM
 * creditDefault_Train.csv - the training set with 23 attributes and 1 target variable
 * creditDefault_Test_X.csv - the test set with 23 predictors
 * creditDefault_sample_submission.csv - a sample submission file in the correct format (Submission files should contain the predicted probability of bankruptcy for each test sample.
-The file should contain a header and have the following format:
-ID, Default
-1,0.01
-2,0.11
-3,0.23
-4,0.63
+The file should contain a header and have the following format:/n
+ID, Default/n
+1,0.01/n
+2,0.11/n
+3,0.23/n
+4,0.63/n
+
+### Evaluation Metric
+AUC (area under the receiver operator curve)
+Team Final Best AUC: 0.74
 
 ### Data Fields
 * Limit - Credit limit
@@ -56,10 +60,6 @@ Gradient Boosting
 Neural Network
 Gradient Boosting
 HP Forest
-
-### Evaluation Metric
-AUC (area under the receiver operator curve)
-Team Final Best AUC: 0.74
 
 ### Reference
 Citation:
