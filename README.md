@@ -18,30 +18,30 @@ SAS EM
 * creditDefault_sample_submission.csv - a sample submission file in the correct format
 
 ### Data Fields
-Limit - Credit limit
-Sex - The Sex of users
-Education - The education level of users
-Marriage - The marriage status of users, they are either Married, Single, or Other.
-Age - The normalized age of users
-Status_1 - Number of months that payment was delayed for the first time period.
-Status_2 - Number of months that payment was delayed for the second time period.
-Status_3 - Number of months that payment was delayed for the third time period.
-Status_4 - Number of months that payment was delayed for the fourth time period.
-Status_5 - Number of months that payment was delayed for the fifth time period.
-Status_6 - Number of months that payment was delayed for the sixth time period.
-Statement_1 - Statement balance for the first time period.
-Statement_2 - Statement balance for the second time period.
-Statement_3 - Statement balance for the third time period.
-Statement_4 - Statement balance for the fourth time period.
-Statement_5 - Statement balance for the fifth time period.
-Statement_6 - Statement balance for the sixth time period.
-Payment_1 - Payment made for the first time period.
-Payment_2 - Payment made for the second time period.
-Payment_3 - Payment made for the third time period.
-Payment_4 - Payment made for the fourth time period.
-Payment_5 - Payment made for the fifth time period.
-Payment_6 - Payment made for the sixth time period.
-Default - Indicating whether or not the user default: 1 = default, 0 = not default.
+* Limit - Credit limit
+* Sex - The Sex of users
+* Education - The education level of users
+* Marriage - The marriage status of users, they are either Married, Single, or Other.
+* Age - The normalized age of users
+* Status_1 - Number of months that payment was delayed for the first time period.
+* Status_2 - Number of months that payment was delayed for the second time period.
+* Status_3 - Number of months that payment was delayed for the third time period.
+* Status_4 - Number of months that payment was delayed for the fourth time period.
+* Status_5 - Number of months that payment was delayed for the fifth time period.
+* Status_6 - Number of months that payment was delayed for the sixth time period.
+* Statement_1 - Statement balance for the first time period.
+* Statement_2 - Statement balance for the second time period.
+* Statement_3 - Statement balance for the third time period.
+* Statement_4 - Statement balance for the fourth time period.
+* Statement_5 - Statement balance for the fifth time period.
+* Statement_6 - Statement balance for the sixth time period.
+* Payment_1 - Payment made for the first time period.
+* Payment_2 - Payment made for the second time period.
+* Payment_3 - Payment made for the third time period.
+* Payment_4 - Payment made for the fourth time period.
+* Payment_5 - Payment made for the fifth time period.
+* Payment_6 - Payment made for the sixth time period.
+* Default - Indicating whether or not the user default: 1 = default, 0 = not default.
 
 ### Model 1
 Gradient Boosting
